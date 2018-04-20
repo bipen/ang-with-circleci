@@ -41,5 +41,5 @@ jobs:
           command: yarn test -- --single-run --no-progress
 
       - run:
-          name: Build
+          name: Build Command
           command: yarn run build
